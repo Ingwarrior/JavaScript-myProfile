@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="Author" content="Igor Kopisov">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/style.css">
+	<title>Learn</title>
+</head>
+
+<body>
+	<div class="conteiner">
+		<div class="conteiner__wraper">
+			<!-- block1 -->
+			<div class="case">
+				<div class="case__wraper">
+					<div class="case__block1 case-vit">
+						<h2>Количество-дней</h2>
+						<div class="maxday"></div>
+						<div class="button-next-end">
+							<button class="buttonmin"> < </button>
+							<button class="buttonmax"> > </button>
+						</div>
+					</div>
+					<div class="case__block2 case-vit">
+						<h2>Сумма за день</h2>
+						<div class="sumoneday"></div>
+						<div>
+							<button type="submit" class="kasesum">Назначить</button>
+							<button type="submit" class="typesum">Начислить</button>
+						</div>
+					</div>
+					<div class="case__block3 case-vit">
+						<h2>Случайный процент</h2>
+						<div class="random-sum"></div>
+						<button type="submit" class="generated-sum">Вычеслить</button>
+					</div>
+					<div class="case__block4 case-vit">
+						<h2>Итоговая Сумма</h2>
+						<div class="all-sum">0</div>
+						<button type="submit" class="typeall">Подсчитать</button>
+					</div>
+				</div>
+			</div>
+			<!-- block 2 -->
+			<div class="panky">
+				<div class="panky__wraper">
+					<!-- левая колонка -->
+					<div class="like">
+						<div class="like__work left-like">
+							<h2>Профиль</h2>
+							<button type="submit" class="click-profile">Заполни меня</button>
+						</div>
+						<div class="like__profiles left-like">
+							<h2>Социальные</h2>
+							<button type="submit" class="click-social">Заполни меня</button>
+						</div>
+						<div class="like__coment left-like">
+							<h2>Стенка</h2>
+							<p class="glassmainprofile"></p>
+						</div>
+					</div>
+						<!-- правая колонка -->
+						<div class="comeet">
+							<div class="comeet__profile">
+								<div class="profile__photo">
+									<img src="img/profileimg.png" alt="my photo" width="150" height="120">
+								</div>
+								<div class="profile__name profile">
+									<div class="name-firstname">
+										<ul>
+											<li>Имя | <p class="first-name"></p></li>
+											<li>Фамилия | <p class="last-name"></p></li>
+											<li>Отчество | <p class="middle-name"></p></li>
+											<li>Возраст | <p class="age-name"></p></li>
+											<li>Город | <p class="city-name"></p></li>
+										</ul>
+									</div>
+								</div>
+								<div class="profile__social profile">
+									<div class="profile-mail profile-icon">
+										<a href="#" class="social-mail"><img src="img/profile-mail.svg" alt=""></a>
+									</div>
+									<div class="profile-vk profile-icon">
+										<a href="#" class="social-vk"><img src="img/profile-vk.svg" alt=""></a>
+									</div>
+									<div class="profile-whatsap profile-icon">
+										<a href="#" class="social-whatsap"><img src="img/profile-whatsap.svg" alt=""></a>
+									</div>
+									<div class="profile-telegram profile-icon">
+										<a href="#" class="social-telegram"><img src="img/profile-telegram.svg" alt=""></a>
+									</div>
+								</div>
+							</div>
+							<div class="comeet__info-profile">
+								<div class="comeet__info-gettext">
+									<p><input type="text" placeholder="Тема Сообщения" name="temaMessage" value="" class="temamessagebutton"></p>
+									<p><input type="text" placeholder="Текст Сообщения" name="textMessage"value class="textmessagebutton"></p>
+									<p><input type="text" placeholder="Фото вставь ссылку" name="photoMessage" value="" class="photomessagebutton"></p>
+									<button type="submit" class="submessagebutton">Отправить</button>
+								</div>
+								<div class="comeet__info-maintext"></div>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/index.js"></script>
+</body>
+
+</html>
