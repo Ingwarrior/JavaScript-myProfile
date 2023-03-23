@@ -488,7 +488,7 @@ h6 {
 	/* block 1 */
 	.case__wraper{
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: space-between;
 		gap: 5px;
 		padding: 10px;
@@ -595,14 +595,48 @@ h6 {
 		background: linear-gradient(90deg, rgba(191,112,191,1) 0%, rgba(46,144,121,1) 100%);
 		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bf70bf",endColorstr="#2e9079",GradientType=1);
 	}
+	/* name profile */
+.profile__name{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 16px;
+	padding: 5px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.tema-text{
+	display: none;
+}
+.buttonlikeprofile img{
+	max-width: 100%;
+	object-fit: cover;
+}
+.buttonlike{
+	width: 7%;
+	margin: 5px 0px;
+	transition: 0.5s all;
+}
+.main__text-get{
+	width: 100%;
+	font-size: 18px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.comeet__info-gettext{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
 	.comeet__info-gettext input{
 		width: 100%;
 		border-radius: 5px;
-		padding: 2px;
+		padding: 5px;
+	}
+	.file-text{
+		font-size: 16px;
 	}
 	.comeet__info-gettext button{
-		width: 100%;
+		max-width: 100%;
 		border-radius: 5px;
-		padding: 2px;
+		padding: 5px;
 	}
 }
